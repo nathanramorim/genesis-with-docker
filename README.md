@@ -23,7 +23,15 @@ You can use the [Laravel Installer](https://laravel.com/docs#installing-php) to 
 laravel new my-app --using=devdojo/genesis
 ```
 
-Then, run `comopser run dev` to run the asset watcher, and you're good to go!
+After installing, navigate into your project directory (`cd my-app`) and run the following commands:
+
+```bash
+composer install
+npm install
+npm run build
+```
+
+Then, run `npm run dev` to run the asset watcher, and you're good to go!
 
 ## Built With
 
